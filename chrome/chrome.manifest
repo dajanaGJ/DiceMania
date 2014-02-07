@@ -1,0 +1,14 @@
+# Chrome package for main program
+content application file:application/
+
+# Required branding package
+locale branding en locale/branding/
+
+# Translations
+locale project en locale/en/
+locale project hr locale/hr/
+
+
+# Each OS has a platform.js in global-platform
+content global-platform file:platforms/ platform
+

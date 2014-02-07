@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=DiceMania
+Comment=DiceMania games at nsbet.net
+Exec=xulrunner /opt/NSBetOnlineDev/application.ini
+Icon=/opt/DiceMania/chrome/icons/default/main.ico
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Game;
