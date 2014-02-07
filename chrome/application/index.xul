@@ -5,13 +5,16 @@
 <window id="main"
         title="dice mania"
         sizemode="normal"
-        windowtype="main"
+        windowtype="root"
         xmlns:html="http://www.w3.org/1999/xhtml"
-        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        onclose="quitApp();">
 
 
 
     <vbox id="index-wrap" style="background-color: red; width: 500px; height: 500px" flex="1"/>
+
+    <script src="lib/scripts/global.js"/>
 
 
 </window>
